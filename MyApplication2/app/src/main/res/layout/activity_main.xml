@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8D70BF"
+    android:backgroundTint="#C8E4E8"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:text="Grade Calculator"
+        android:textAlignment="center"
+        android:textColor="#255"
+        android:textDirection="locale"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/Q"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:background="#E81123"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/HW"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#E81123"
+        android:hint="HomeWork 25%"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/MidTerm"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#E81123"
+        android:ems="10"
+        android:hint="Mid terms 30%"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/F"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#E81123"
+        android:ems="10"
+        android:hint="Final 30%"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:text="CALCLATER" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:text="Reset" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="169dp"
+        android:text="Result" />
+
+
+</LinearLayout>
