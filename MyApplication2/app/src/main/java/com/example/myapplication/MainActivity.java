@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText c=findViewById(R.id.MidTerm);
         final EditText d=findViewById(R.id.F);
         final TextView e=findViewById(R.id.textView2);
+        final TextView f=findViewById(R.id.textView3);
         Button butt=findViewById(R.id.button);
         Button butt1=findViewById(R.id.button1);
 
@@ -54,19 +55,27 @@ public class MainActivity extends AppCompatActivity {
                     e.setTextColor(Color.BLUE);
                 } else if (Result < 101 && Result >= 90) {
                     e.setText("A");
+                    f.setText("Good jop man ");
                     e.setTextColor(Color.GRAY);
 
                 } else if (Result < 89 && Result >= 80) {
                     e.setText("B");
+
+                    f.setText("Hero");
                     e.setTextColor(Color.GREEN);
                 } else if (Result < 79 && Result >= 70) {
                     e.setText("C");
+
+                    f.setText("Careful");
                     e.setTextColor(Color.CYAN);
                 } else if (Result < 69 && Result >= 60) {
                     e.setText("D");
+                    f.setText("You're going to hell.");
                     e.setTextColor(Color.LTGRAY);
                 } else {
                     e.setText("F");
+                    f.setText(" Playing the piano is better for you than studying.");
+
                     e.setTextColor(Color.MAGENTA);
                 }
 
@@ -80,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-             a.setText("Quizes %15");
-             b.setText("HomeWork 25%");
-             c.setText("Mid terms 30%");
-             d.setText("Final 30% ");
+             a.setText("0");
+             b.setText("0");
+             c.setText("0");
+             d.setText("0");
              e.setText("Reset");
              e.setTextColor(Color.BLUE);
             }
